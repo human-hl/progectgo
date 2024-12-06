@@ -85,7 +85,7 @@ func FormHandler(w http.ResponseWriter, r *http.Request) {
 
 		// отправка сообщения в Telegram
 		if TelegramBot != nil {
-			tgMessage := tgbotapi.NewMessage(1065141578, string(msg))
+			tgMessage := tgbotapi.NewMessage(, string(msg))
 			_, err := TelegramBot.Send(tgMessage)
 			if err != nil {
 				log.Printf("Ошибка отправки сообщения в Telegram: %v", err)
