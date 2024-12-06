@@ -1,0 +1,472 @@
+body,
+p,
+a,
+h1,
+h2,
+img,
+div {
+    margin: 0;
+}
+
+.just-me-again-down-here-regular {
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jura {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.ruslan-display-regular {
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.blueline {
+    background-color: #0C2A44;
+}
+
+.chouse a {
+    text-decoration: none;
+    color: white;
+    font-size: 48px;
+}
+
+.chouse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 58px;
+}
+
+.first-blok {
+    padding: 28px 58px;
+    position: relative;
+}
+
+.Name_p p {
+    color: #2A2925;
+    font-size: 96px;
+}
+
+.Name_p {
+    position: absolute;
+    top: 10px;
+}
+
+.photographer p {
+    color: #2A2925;
+    font-size: 135px;
+}
+
+.photographer {
+    position: absolute;
+    bottom: 2px;
+    right: 2px
+}
+
+.photo_forfirst {
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.photo_forfirst img {
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px;
+}
+
+.About_Me {
+    padding: 92px 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.bigaboutme {
+    position: absolute;
+    top: 0px;
+    right: 558px;
+}
+
+.bigaboutme p {
+    color: #2A2925;
+    font-size: 135px;
+}
+
+.photoandtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 30px;
+    width: 90%;
+}
+
+.photoplustext {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.first_photo {
+    width: 50%;
+}
+
+.txtaboutme {
+    width: 50%;
+    background-color: #F0E9DF;
+}
+
+.first_photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.triphoto {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    width: 71%;
+}
+
+.second_photo {
+    width: 100%;
+}
+
+.second_photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.third_photo {
+    width: 29%;
+}
+
+.third_photo img {
+    width: 100%;
+}
+
+.txtaboutme p {
+    padding: 30px 30px;
+    color: #2A2925;
+    font-size: 30px;
+}
+
+.Portfolio {
+    /* padding: 0px 30px; */
+    display: flex;
+    justify-content: center;
+}
+
+.main_portfolio {
+    background-color: #F0E9DF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+    padding-left: 21px;
+    padding-right: 21px;
+    gap: 0;
+    width: 90%;
+}
+
+.txt_and_more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.text_for_block p {
+    color: #2A2925;
+    font-size: 97px;
+}
+
+.buttom_more a {
+    text-decoration: none;
+    color: #F0E9DF;
+    background-color: #0C2A44;
+    padding: 0px 147px;
+    font-size: 50px;
+}
+
+.photo_from_portf {
+    width: 90%;
+}
+
+.photo_from_portf img {
+    width: 100%;
+}
+
+.Price {
+    padding: 77px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one_price1 {
+    background-color: #F0E9DF;
+    position: relative;
+    padding: 77px 55px;
+    padding-bottom: 270px;
+
+}
+
+.one_price1 p {
+    color: #2A2925;
+}
+
+.op1-firstch {
+    font-size: 76px;
+    position: absolute;
+    top: -64px;
+    left: 160px;
+}
+
+.op1-lastch {
+    font-size: 30px;
+    text-align: center;
+}
+
+.one_price2 {
+    background-color: #0C2A44;
+    position: relative;
+    padding: 77px 55px;
+    padding-bottom: 270px;
+    width: 30%;
+}
+
+.one_price2 p {
+    color: #F0E9DF;
+
+}
+
+.op2-firstch {
+    -webkit-text-stroke: 2px #0C2A44;
+    font-size: 76px;
+    position: absolute;
+    top: -64px;
+    left: 160px;
+}
+
+.op2-lastch {
+    font-size: 30px;
+    text-align: center;
+}
+
+.chouse_prise {
+    column-gap: 72px;
+    row-gap: 35px;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.name_price p {
+    font-size: 120px;
+    color: #2A2925;
+    text-align: center;
+}
+
+.Contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.txt_Contact {
+    transform: rotate(-90deg);
+}
+
+.txt_Contact p {
+    color: #2A2925;
+    font-size: 135px;
+    padding-top: 50px;
+}
+
+.blue_chouse {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    width: 90%;
+    padding-top: 55px;
+}
+
+.spesh {
+    align-self: flex-end;
+}
+
+.blue-block a {
+    text-decoration: none;
+    color: #F0E9DF;
+    font-size: 72px;
+    background-color: #0C2A44;
+    padding: 20px 120px;
+}
+
+.Go_to_Photoset {
+
+    padding: 0px 30px 80px 30px;
+}
+
+.for_color {
+    background-color: #F0E9DF;
+    padding: 18px 0px 86px 37px;
+}
+
+.inputs_goto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.text_goto p {
+    color: #2A2925;
+    font-size: 96px;
+}
+
+.inputs_goto label {
+    color: #2A2925;
+    font-size: 20px;
+}
+
+.btn_send {
+    background-color: #2A2925;
+    color: #F0E9DF;
+    font-size: 30px;
+    padding: 12px 200px 12px 21px;
+}
+
+.text_footer {
+    padding: 51px 30px;
+    text-align: right;
+}
+
+.text_footer p {
+    color: #0C2A44;
+    font-size: 96px;
+    margin: 0;
+}
+
+/* Portfolio */
+
+.headercolor {
+    background-color: #0C2A44;
+}
+
+.conteiner1 {
+    padding: 22px 48px;
+}
+
+.buttns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttnch a {
+    text-decoration: none;
+    color: #2A2925;
+    font-size: 48px;
+    background-color: #F0E9DF;
+    padding: 8px 200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    max-width: 100%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -20px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F0E9DF;
+    border-radius: 50%;
+    animation: scroll-down 2s infinite;
+    background-color: #0C2A44;
+}
+
+@keyframes scroll-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.scroll-down:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -6px;
+    border-left: 2px solid #F0E9DF;
+    border-bottom: 2px solid #F0E9DF;
+    transform: rotate(-45deg);
+    width: 16px;
+    height: 16px;
+    background-color: #0C2A44;
+}
+
+.scroll-down:hover {
+    animation-play-state: paused;
+}
+
+.scroll-down:active:before {
+    transform: translateY(2px);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
